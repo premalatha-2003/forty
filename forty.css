@@ -8,6 +8,8 @@
     /* if you mention cover then, entire page */
     /* height: 100vh; */ 
 /* } */ 
+body{
+    background-color: black;
 *{
     margin: 0;
     padding: 0;
@@ -117,3 +119,4 @@ main>article>div>div>hr{
 main>article>div>div>p{
     text-transform: uppercase;
 }
+
