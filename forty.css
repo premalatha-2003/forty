@@ -1,0 +1,119 @@
+/* body{
+    /* background-image: url(images/hd.jpg);
+    background-repeat: no-repeat;
+    /* background-position-x: left;
+    background-position-y: center; */
+    /* background-size:cover; */
+
+    /* if you mention cover then, entire page */
+    /* height: 100vh; */ 
+/* } */ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    grid-template-rows: 320px 320px 320px;
+}
+main > #art1{
+    background-image: url(images/forty1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main > #art2{
+    background-image: url(images/forty2.jpg);
+    grid-column-start: span 2;
+}
+main > #art3{
+    background-image: url(images/forty3.jpg);
+    grid-column-start: span 2;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main > #art4{
+    background-image: url(images/forty4.jpg);
+}
+main > #art5{
+    background-image: url(images/forty5.jpg);
+}
+main > #art6{
+    background-image: url(images/forty6.jpg);
+    grid-column-start: span 2;
+}
+main > #art1 >div{
+    background-color: #79c1d9b9;
+    height: 100%;
+    transition: 2s;
+}
+main >#art1 >div:hover{
+    background-color: transparent;
+}
+main > #art2 >div{
+    background-color: #857bb8b1 ;
+    height: 100%;
+    transition: 2s;
+}
+main >#art2 >div:hover{
+    background-color: transparent;
+}
+
+main > #art3 >div{
+    background-color: #e49189b7;
+    height: 100%;
+    transition: 2s;
+
+}
+main >#art3 >div:hover{
+    background-color: transparent;
+}
+main > #art4 >div{
+    background-color: #e0b59099;
+    height: 100%;
+    transition: 2s;
+    /* transform: scale(1.2); */
+}
+main >#art4 >div:hover{
+    background-color: transparent;
+}
+main > #art5 >div{
+    background-color: #7e98cfa4;
+    height: 100%;
+    transition: 2s;
+}
+main >#art5 >div:hover{
+    background-color: transparent;
+}
+main > #art6 >div{
+    background-color: #79ad95a6;
+    height: 100%;
+    transition: 2s;
+}
+main >#art6 >div:hover{
+    background-color: transparent;
+}
+
+main>article>div>div{
+    /* background-color: darkblue; */
+    margin-left:30px;
+    color: white;
+}
+main>article>div{
+    display: flex;
+    align-items: center;
+}
+main>article>div>div>h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+main>article>div>div>hr{
+    height:3px;
+    background-color: white;
+    margin-bottom: 15px;
+}
+main>article>div>div>p{
+    text-transform: uppercase;
+}
